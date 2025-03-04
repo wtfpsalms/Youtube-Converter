@@ -1,6 +1,7 @@
 const express = require('express');
 const ytdl = require('@distube/ytdl-core');
 const ffmpeg = require('fluent-ffmpeg');
+const ffmpegPath = require('ffmpeg-static');
 const { StreamInput } = require('@dank074/fluent-ffmpeg-multistream-ts');
 const fs = require('fs');
 const path = require('path');
